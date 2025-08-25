@@ -4,9 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FastPak Courier</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>🚚 Welcome to FastPak Courier</h1>
-  <p>Your reliable courier service is coming soon!</p>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white shadow">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">🚚 FastPak Courier</h1>
+      <nav class="space-x-6">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+    <h2 class="text-4xl font-extrabold mb-4">Your Reliable Courier Partner</h2>
+    <p class="text-lg mb-6">Fast, secure, and affordable delivery services across Pakistan.</p>
+    <a href="#services" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-200">Explore Services</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-6 text-center">About Us</h3>
+    <p class="text-center max-w-2xl mx-auto text-gray-600">
+      At FastPak Courier, we are dedicated to providing fast, reliable, and cost-effective delivery solutions. 
+      Whether it’s parcels, documents, or e-commerce orders, we’ve got you covered.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 text-center">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">📦 Parcel Delivery</h4>
+          <p>Fast and secure delivery of your parcels nationwide.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">🛒 E-commerce Solutions</h4>
+          <p>Integrated courier services for online businesses and stores.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">📑 Document Handling</h4>
+          <p>Safe and confidential delivery of your important documents.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-6 text-center">Get in Touch</h3>
+    <form class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow">
+      <input type="text" placeholder="Your Name" class="w-full border rounded px-4 py-2 mb-4">
+      <input type="email" placeholder="Your Email" class="w-full border rounded px-4 py-2 mb-4">
+      <textarea placeholder="Your Message" class="w-full border rounded px-4 py-2 mb-4"></textarea>
+      <button class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center py-4">
+    <p>&copy; 2025 FastPak Courier. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
